@@ -1,0 +1,193 @@
+.wrap{
+    display: flex;
+}
+.content{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    margin-bottom: 12px;
+    .title{
+        display: flex;
+        align-items: center;
+        h2{
+            font-size: 24px;
+            margin-right: 48px;
+        }
+        p{
+            font-size: 16px;
+            margin-right: 8px;
+        }
+        img{
+            width: 24px;
+        }
+    }
+    .icon{
+        img{
+            width: 24px;
+            margin: 0px 13px;
+        }
+    }
+}
+/*------------------------------------------------*/
+.content_details{
+    padding-left: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.all_figures{
+    display: flex;
+    padding-bottom: 6px;
+}
+.content_left{
+    ul li{
+        display: flex;
+        justify-content: space-between;
+        width: 320px;
+        height: 62px;
+        border: 1px solid $color-line;
+        padding: 12px;
+        div p{
+            font-size: 12px;
+        }
+    }
+    .checklist_time{
+        text-align: right;
+    }
+    
+}
+
+.content_right{
+    width: 584px;
+    margin-right: 44px;
+    p{
+        font-size: 12px;
+        color: $color-darkgray;
+        text-align: right;
+    }
+    .content_right_title{
+        display: flex;
+        justify-content: space-between;
+        height: 62px;
+        padding: 12px 16px;
+        margin-top: 12px;
+        border: 1px solid  $color-line;
+        img{
+            width: 24px;
+        }
+        div{
+            text-align: left;
+        }
+        div p{
+            font-size: 12px;
+            text-align: left;
+            color: black;
+        }
+    }
+    .content_right_lest{
+        padding-top: 16px;
+        border: 1px solid  $color-line;
+        .content_right_lest_first_time{
+            display: flex;
+        }
+        .content_right_lest_Second{
+            display: flex;
+        }
+        img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-left: 16px;
+            margin-right: 8px;
+        }
+        .introduce{
+            width: 488px;
+            line-height: 20px;
+            padding-bottom: 16.5px;
+            margin-bottom: 17.5px;
+            border-bottom: 1px solid $color-line;
+            span{
+                font-size: 12px;
+                color: $color-darkgray;
+            }
+            p{
+                font-size: 14px;
+                color: black;
+                text-align: left;
+                padding: 16px 0px;
+            }
+            .file_upload{
+                width: 176px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid $color-line;
+                
+                a{
+                    font-size: 16px;
+                    text-align: center;
+                    color: black;
+                }
+                img{
+                    width: 24px;
+                    margin: 0px;
+                    
+                
+                }
+            }
+        }
+        .introduce_Second{
+            width: 488px;
+            line-height: 20px;
+            padding-bottom: 16.5px;
+                
+            span{
+                font-size: 12px;
+                color: $color-darkgray;
+            }
+            p{
+                font-size: 14px;
+                color: black;
+                text-align: left;
+                padding: 10px 0px;
+            }
+            .Change_color{
+                color: $color-green;
+            }
+        }
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 16px;
+        .page{
+            img{
+                width: 24px; 
+                margin-right: 23px;
+            } 
+        }
+        .Mark{
+            background-color: #fff;
+            color: $color-green;
+            border: 1px solid $color-green;
+            width: 157px;
+            height: 35px;
+            font-size: 16px;
+        }
+        .Reply{
+            background-color: $color-green;
+            color: #fff;
+            border: 1px solid $color-green;
+            width: 105px;
+            height: 35px;
+            font-size: 16px;
+            margin-left: 16px;
+        }
+    }
+}

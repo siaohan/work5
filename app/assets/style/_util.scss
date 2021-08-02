@@ -1,0 +1,14 @@
+
+/*圖片取代文字*/
+.Picture_text{
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.coo_dg{
+    color: $color-darkgray;
+}
+.bk_coo{
+    background-color: $color-gray;
+}

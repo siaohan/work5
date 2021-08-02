@@ -1,0 +1,22 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+body{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    &:hover{
+        color:$color-green;
+    }
+    &:active{
+        color:$color-green;
+    }
+    &:visited{
+        color:$color-green;
+    }
+}
+h3{
+    font-size: 16px;
+}
